@@ -15,7 +15,6 @@ public class TicTacToe {
 
     private void newBoard(){
         board = new ArrayList<>();
-        //String board = {"   |   |   ", "--------", "   |  |   ", "--------", "   |   |   " };
         for(int i = 0; i < 5; i++){
             if(i % 2 == 0){
                 board.add(new StringBuilder("   |   |   "));
